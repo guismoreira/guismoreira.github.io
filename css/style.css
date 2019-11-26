@@ -356,7 +356,7 @@ footer.footer-area .social a:hover > i{
   
   .container2 img {
     position: absolute;
-    bottom: 0;
+    bottom: -75px;
     width: 100%;
   }
 
