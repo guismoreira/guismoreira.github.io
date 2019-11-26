@@ -14,6 +14,7 @@
 
 .header_area .main-menu .navbar .navbar-brand{
     padding: 0 2rem 0 5rem;
+    position: fixed;
 }
 
 .header_area .main-menu .navbar{
@@ -349,8 +350,9 @@ footer.footer-area .social a:hover > i{
     border-radius: 50%;
     width: 350px;
     height: 350px;
-    overflow: hidden;
+    overflow:hidden;
     position: relative;
+    
   }
   
   .container2 img {
