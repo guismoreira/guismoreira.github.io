@@ -131,3 +131,16 @@ body {
         justify-content: center !important;
     }
 }
+
+#texto-1 {
+
+}
+
+#texto-2 {
+    display: none;
+    
+}
+
+a:link {
+    text-decoration: none;
+  }

@@ -20,14 +20,13 @@
                         <img src="./images/eu.jpg" alt="Foto de perfil" class="card-image mx-auto d-block">
                     </div>
                     <div class="card-body">
-                        <h5 class="text-center card-title">Guilherme Moreira</h5>
+                        <h5 class="text-center card-title" id="nome-no-html"></h5>
                         <hr class="hr">
-                        <p class="text-center">
-                            Desenvolvedor
+                        <p class="text-center" id="cargo-no-html">
                         </p>
                         <div class="botoes-card">
-                            <a href="#" class="btn mr-1" id="btn-sobre">Sobre</a>
-                            <a href="https://github.com/guismoreira" target="_blank" class="btn ml-1 btn-card" id="btn-projeto">Projetos</a>
+                            <button onclick="clickNoSobre()"  class="btn mr-1" id="btn-sobre">Sobre</a>
+                            <button onclick="clickNoProjetos()" class="btn ml-1 btn-card" id="btn-projeto">Projetos</button>
                         </div>
                         <div class="icon-redes-sociais">
                             <div class="links-redes-sociais mt-2">
@@ -50,12 +49,22 @@
             </div>
             
                         <div class="col-md-6 col-lg-6 text-body">
-                            <div class="text">
+                            <div class="text" id="texto-1">
                                 <h1 class="title-text">Olá</h1>
                                 <h4 class="title-subtitle">bem vindo ao meu site</h4>
                                 <p>Sou entusiasmado por aprender e encontrar soluções</p>
                                 <p>Curso Sistemas para Internet no IFRS (Instituto Federal do Rio Grande do Sul)</p>
+                                <a target="_blank" href="https://github.com/guismoreira">Meu github</a>
+
                 </div>
+
+                        <div class="text" id="texto-2">
+                            <h1 class="title-text">Projetos</h1>
+                            <h4 class="title-subtitle">Alguns projetos que trabalhei</h4>
+                            <p>
+                                <a target="_blank" href="https://nuxt-app-user.vercel.app/">Um dos meus projetos - Este projeto foi desenvolvido com NuxtJS (framework do Vue)</a>
+                            </p>
+    </div>
             </div>
         </div>
     </div>
@@ -91,9 +100,12 @@
             </div>
         <div class="row text-center mb-2">
             <div class="col-lg-12 col-md-12">
-                <small>2020 <a href="#">Guilherme Moreira</a></small>
+                <small>2021 <a href="#">Guilherme Moreira</a></small>
             </div>
         </div>
     </footer>
+
+
+    <script src="./js/index.js"></script>
 </body>
 </html>
