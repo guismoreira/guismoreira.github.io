@@ -30,7 +30,7 @@ body {
 }
 
 .card-perfil {
-    background-color: #fffb00 !important;
+    background-color: #19DEF0 !important;
     box-shadow: 0px 0px 5px #f5f5f5;
 }
 
@@ -93,7 +93,7 @@ body {
 
 @media (min-width: 900px) {
     .container-linear {
-        background: linear-gradient(to left, #fff 60%, #19def0 40%);
+        background: linear-gradient(to left, #fff 60%, #fffb00 40%);
     }
 
     .card-col {
