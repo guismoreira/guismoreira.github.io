@@ -1,5 +1,5 @@
 var nome = "Guilherme Moreira"
-var cargo = "Profissional criativo"
+var cargo = "Profissional de tecnologia em busca de oportunidades"
 
 var nomeHtml = document.getElementById("nome-no-html");
 var cargoHtml = document.getElementById("cargo-no-html");
