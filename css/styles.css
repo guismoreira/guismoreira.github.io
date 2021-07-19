@@ -93,7 +93,7 @@ body {
 
 @media (min-width: 900px) {
     .container-linear {
-        background: linear-gradient(to left, #fff 60%, #fffb00 40%);
+        background: linear-gradient(to left, #fff 60%, #000000 40%);
     }
 
     .card-col {
