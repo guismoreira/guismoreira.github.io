@@ -146,8 +146,12 @@ a:link {
   }
 
   .art {
-      margin-left: 20px;
-      margin-right: 20px;
-      margin-top: 20px;
-      margin-bottom: 20px;
+      margin-left: 150px;
+      margin-right: 150px;
+      margin-top: 80px;
+      margin-bottom: 80px;
+  }
+
+  .arttitle {
+      margin-bottom: 80px;
   }
