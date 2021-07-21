@@ -145,13 +145,22 @@ a:link {
     text-decoration: none;
   }
 
-  .art {
-      margin-left: 150px;
-      margin-right: 150px;
-      margin-top: 80px;
-      margin-bottom: 80px;
-  }
-
   .arttitle {
       margin-bottom: 80px;
   }
+
+  .art {
+    margin: 2em 5em;
+  }
+
+  @media screen and (min-width: 1366) {
+    .art {
+        margin: 2em 5em;
+    }
+  } 
+
+  @media screen and (max-width: 600px) {
+    .art {
+        margin: 1em 2em;
+    }
+  } 
