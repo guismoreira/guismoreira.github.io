@@ -1,5 +1,5 @@
 var nome = "Guilherme Moreira"
-var cargo = "back-end em projeto de pesquisa do IFRS"
+var cargo = "back-end"
 
 var nomeHtml = document.getElementById("nome-no-html");
 var cargoHtml = document.getElementById("cargo-no-html");
